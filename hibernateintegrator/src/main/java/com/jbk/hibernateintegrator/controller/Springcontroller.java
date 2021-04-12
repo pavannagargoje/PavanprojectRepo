@@ -18,7 +18,7 @@ public class Springcontroller {
 	
 	@GetMapping("/getcustomer")
 	public List<Customer> getcustomer() {
-		
+		System.out.println("student is added");
 		List<Customer> list=spservice.getcustomer();
 		return list;
 	}
